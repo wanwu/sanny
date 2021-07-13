@@ -1,0 +1,158 @@
+{
+    "import": {
+        "prefix": "import",
+        "body": [
+            "import $1 from '$2'"
+        ],
+        "description": "import ... from ..."
+    },
+    "extend": {
+        "prefix": "sanDefineComponent",
+        "body": [
+            "san.defineComponent({",
+            "\ttemplate:${1:template}",
+            "})"
+        ],
+        "description": "san.defineComponent( options )"
+    },
+    "initData": {
+        "prefix": "initData",
+        "body": [
+            "initData() {",
+            "\treturn {",
+            "\t\t$1",
+            "\t}",
+            "},$0"
+        ],
+        "description": "The initData object for the San instance."
+    },
+    "data": {
+        "prefix": "data",
+        "body": [
+            "data: {",
+            "\t$1",
+            "},$0"
+        ],
+        "description": "A list/hash of attributes that are exposed to accept data from the parent component. "
+    },
+    "computed": {
+        "prefix": "computed",
+        "body": [
+            "computed: {",
+            "\t$1",
+            "},$0"
+        ],
+        "description": "Computed properties to be mixed into the San instance. "
+    },
+    "el": {
+        "prefix": "el",
+        "body": [
+            "el"
+        ],
+        "description": "just a word"
+    },
+    "template": {
+        "prefix": "template",
+        "body": [
+            "template"
+        ],
+        "description": "just a word"
+    },
+    "created": {
+        "prefix": "created",
+        "body": [
+            "created() {",
+            "\t$1",
+            "},"
+        ],
+        "description": "Type: Function."
+    },
+    "updated": {
+        "prefix": "updated",
+        "body": [
+            "updated() {",
+            "\t$1",
+            "},"
+        ],
+        "description": "Type: Function."
+    },
+    "attached": {
+        "prefix": "attached",
+        "body": [
+            "attached() {",
+            "\t$1",
+            "},"
+        ],
+        "description": "Type: Function."
+    },
+    "detached": {
+        "prefix": "detached",
+        "body": [
+            "detached() {",
+            "\t$1",
+            "},"
+        ],
+        "description": "Type: Function."
+    },
+    "disposed": {
+        "prefix": "disposed",
+        "body": [
+            "disposed() {",
+            "\t$1",
+            "},"
+        ],
+        "description": "Type: Function."
+    },
+    "filters": {
+        "prefix": "filters",
+        "body": [
+            "filters: {",
+            "\t$1",
+            "},$0"
+        ],
+        "description": "just a word"
+    },
+    "static template": {
+        "prefix": "static t",
+        "body": [
+            "static template = {",
+            "\t$1",
+            "},$0"
+        ],
+        "description": "just a word"
+    },
+    "static filters": {
+        "prefix": "static f",
+        "body": [
+            "static filters = {",
+            "\t$1",
+            "},$0"
+        ],
+        "description": "just a word"
+    },
+    "static components": {
+        "prefix": "static c",
+        "body": [
+            "static components = {",
+            "\t$1",
+            "},$0"
+        ],
+        "description": "just a word"
+    },
+    "components": {
+        "prefix": "components",
+        "body": [
+            "components: {",
+            "\t$1",
+            "},$0"
+        ],
+        "description": "just a word"
+    },
+    "vm.$mount": {
+        "prefix": "vmMount",
+        "body": [
+            "${1|this,vm|}.\\$mount('$2')"
+        ],
+        "description": "vm.$mount( [elementOrSelector] )"
+    }
+}

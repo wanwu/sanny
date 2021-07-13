@@ -1,0 +1,6 @@
+<script lang="ts">
+import san from 'san'
+export default san.defineComponent({
+\t${0}
+})
+</script>

@@ -1,8 +1,7 @@
-<p>
-  <h1 align="center">Sanny</h1>
-</p>
+# Sanny
 [![](https://vsmarketplacebadge.apphb.com/version-short/suyanzhi.sanny.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=suyanzhi.sanny)
 [![](https://vsmarketplacebadge.apphb.com/installs-short/suyanzhi.sanny.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=suyanzhi.sanny)
+
 
 San tooling for VS Code.
 Inspired by [vetur](https://github.com/vuejs/vetur)
